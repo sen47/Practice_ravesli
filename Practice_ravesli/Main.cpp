@@ -9,53 +9,58 @@
 #include"Practice7.h"
 #include"Practice8.h"
 #include"Practice9.h"
+#include"Practice10.h"
 
 int main()
 {
 	//Practice 1
-	//sandwitch();
-	//minNumber();
-	//season();
+	//Practice1::sandwitch();
+	//Practice1::minNumber();
+	//Practice1::season();
 
 	//Practice 2
-	//trip();
-	//discount();
+	//Practice2::trip();
+	//Practice2::discount();
 	//
 
 	//Practice 3
-	//speed();
-	//sumOfFirstN();
+	//Practice3::speed();
+	//Practice3::sumOfFirstN();
 	//
 
 	//Practice 4
-	//fromVerstToKM();
-	//averageOfArray();
-	//mergeArrays();
+	//Practice4::fromVerstToKM();
+	//Practice4::averageOfArray();
+	//Practice4::mergeArrays();
 
 	//Practice 5
-	//timeConvertor();
-	//costTable();
+	//Practice5::timeConvertor();
+	//Practice5::costTable();
 	//
 
 	//Practice 6
-	//lessNumber();
+	//Practice6::lessNumber();
 	//
-	//flight();
+	//Practice6::flight();
 
 	//Practice 7
 	//
-	//isInteger();
+	//Practice7::isInteger();
 	//
 
 	//Practice 8
-	//copEnding();
-	//palindrom();
-	//bacalavrCoef();
+	//Practice8::copEnding();
+	//Practice8::palindrom();
+	//Practice8::bacalavrCoef();
 
 	//Practice 9
-	//leapYear();
-	//isInArray();
-	stupidGame();
+	//Practice9::leapYear();
+	//Practice9::isInArray();
+	//Practice9::stupidGame();
+
+	//Practice 10
+	//Practice10::averageDouble();
+	Practice10::isHappyNumber();
 
 	return 0;
 }
