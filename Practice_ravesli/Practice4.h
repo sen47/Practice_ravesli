@@ -1,13 +1,7 @@
 #ifndef PRACTICE4_H
 #define PRACTICE4_H
 
-#include<iostream>
-#include<string>
-#include<iomanip>
-#include<vector>
-#include<algorithm>
-#include<sstream>
-#include<memory>
+#include"Headers.h"
 
 namespace Practice4
 {

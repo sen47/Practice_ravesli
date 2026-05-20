@@ -1,10 +1,7 @@
 #ifndef PRACTICE8_H
 #define PRACTICE8_H
 
-#include<iostream>
-#include<string>
-#include<Windows.h>
-#include<iomanip>
+#include"Headers.h"
 
 namespace Practice8
 {

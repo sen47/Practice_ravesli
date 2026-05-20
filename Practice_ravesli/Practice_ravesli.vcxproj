@@ -130,6 +130,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Practice1.cpp" />
     <ClCompile Include="Practice10.cpp" />
+    <ClCompile Include="Practice11.cpp" />
     <ClCompile Include="Practice2.cpp" />
     <ClCompile Include="Practice3.cpp" />
     <ClCompile Include="Practice4.cpp" />
@@ -140,8 +141,10 @@
     <ClCompile Include="Practice9.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Headers.h" />
     <ClInclude Include="Practice1.h" />
     <ClInclude Include="Practice10.h" />
+    <ClInclude Include="Practice11.h" />
     <ClInclude Include="Practice2.h" />
     <ClInclude Include="Practice3.h" />
     <ClInclude Include="Practice4.h" />

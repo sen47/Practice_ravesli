@@ -1,10 +1,7 @@
 #ifndef PRACTICE3_H
 #define PRACTICE3_H
 
-#include<iostream>
-#include<string>
-#include<cmath>
-#include<iomanip>
+#include"Headers.h"
 
 namespace Practice3
 {

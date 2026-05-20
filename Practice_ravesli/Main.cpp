@@ -1,5 +1,3 @@
-#include<iostream>
-
 #include"Practice1.h"
 #include"Practice2.h"
 #include"Practice3.h"
@@ -10,6 +8,7 @@
 #include"Practice8.h"
 #include"Practice9.h"
 #include"Practice10.h"
+#include"Practice11.h"
 
 int main()
 {
@@ -60,7 +59,12 @@ int main()
 
 	//Practice 10
 	//Practice10::averageDouble();
-	Practice10::isHappyNumber();
+	//Practice10::isHappyNumber();
+	//////Practice10::students();
+
+	//Practice 11
+	Practice11::convert();
+
 
 	return 0;
 }

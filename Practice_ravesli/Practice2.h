@@ -1,9 +1,7 @@
 #ifndef PRACTICE2_H
 #define PRACTICE2_H
 
-#include<iostream>
-#include<string>
-#include<iomanip>
+#include"Headers.h"
 
 namespace Practice2
 {

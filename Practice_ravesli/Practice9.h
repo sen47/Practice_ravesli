@@ -1,14 +1,7 @@
 #ifndef PRACTICE9_H
 #define PRACTICE9_H
 
-#include<iostream>
-#include<string>
-#include<list>
-#include<sstream>
-#include<exception>
-#include<algorithm>
-#include<array>
-#include<random>
+#include"Headers.h"
 
 namespace Practice9
 {

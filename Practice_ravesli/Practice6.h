@@ -1,13 +1,7 @@
 #ifndef PRACTICE6_H
 #define PRACTICE6_H
 
-#include<string>
-#include<iostream>
-#include<sstream>
-#include<exception>
-#include<list>
-#include<algorithm>
-#include<iomanip>
+#include"Headers.h"
 
 namespace Practice6
 {
