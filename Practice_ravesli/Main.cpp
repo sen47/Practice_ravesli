@@ -63,8 +63,8 @@ int main()
 	//////Practice10::students();
 
 	//Practice 11
-	Practice11::convert();
-
+	//Practice11::convert();
+	Practice11::yearCost();
 
 	return 0;
 }
