@@ -9,6 +9,8 @@
 #include"Practice9.h"
 #include"Practice10.h"
 #include"Practice11.h"
+#include"Practice12.h"
+#include"Practice13.h"
 
 int main()
 {
@@ -64,7 +66,17 @@ int main()
 
 	//Practice 11
 	//Practice11::convert();
-	Practice11::yearCost();
+	//Practice11::yearCost();
+	//
+
+	//Practice 12
+	//Practice12::stringReverce();
+	//Practice12::getWeekDay();
+	//
+
+	//Practice 13
+	//Practice13::evenAndMultiple();
+	Practice13::happyTicket();
 
 	return 0;
 }

@@ -51,6 +51,12 @@
     <ClCompile Include="Practice11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Practice12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Practice1.h">
@@ -87,6 +93,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Practice12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Practice13.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
