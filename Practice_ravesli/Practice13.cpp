@@ -35,25 +35,64 @@ namespace Practice13
 	void happyTicket()
 	{
 		std::array<int, 6>ticket{};
+		++ticket[0];
 		
-		int countHappy(0), countCommon(0), currentDigit(0);
+		int countHappy(0), countCommon(0);
 		
-		for (ticket[0] = 0;ticket[0] <= 9;++ticket[0])
-			for (ticket[1] = 0;ticket[1] <= 9;++ticket[1])
-				for (ticket[2] = 0;ticket[2] <= 9;++ticket[2])
-					for (ticket[3] = 0;ticket[3] <= 9;++ticket[3])
-						for (ticket[4] = 0;ticket[4] <= 9;++ticket[4])
-							for (ticket[5] = 0;ticket[5] <= 9;++ticket[5])
+		for(ticket[0]=0;ticket[0]<=9;++ticket[0])
+			for(ticket[1]=0;ticket[1]<=9;++ticket[1])
+				for(ticket[2]=0;ticket[2]<=9;++ticket[2])
+					for(ticket[3]=0;ticket[3]<=9;++ticket[3])
+						for(ticket[4]=0;ticket[4]<=9;++ticket[4])
+							for (ticket[5] = 0; ticket[5] <= 9;++ticket[5])
 							{
 								++countCommon;
-
-								if (isHappy(ticket) && isDD(ticket))
-								{
-									++countHappy;
-									printArr(ticket, countHappy);
-								}
+								if(isHappy(ticket))
+									if (isDD(ticket))
+									{
+										printArr(ticket, ++countHappy);
+									}
 							}
 
 		std::cout << "Common count = " << countCommon << '\n';
+	}
+
+	int getSumOfThree(const std::array<int, 6>& arr)
+	{
+		return arr[0] + arr[1] + arr[2];
+	}
+
+	void happyTicketAll()
+	{
+		std::array<int, 6>ticket{};
+
+		std::array<int, 28>count{};
+
+		for (ticket[0] = 0;ticket[0] < 10;++ticket[0])
+			for (ticket[1] = 0;ticket[1] < 10;++ticket[1])
+				for (ticket[2] = 0;ticket[2] < 10;++ticket[2])
+					for (ticket[3] = 0;ticket[3] < 10;++ticket[3])
+						for (ticket[4] = 0;ticket[4] < 10;++ticket[4])
+							for (ticket[5] = 0;ticket[5] < 10;++ticket[5])
+							{
+								++count[0];
+								if (isHappy(ticket))
+								{
+									if (getSumOfThree(ticket))
+									{
+										++count[getSumOfThree(ticket)];
+									}
+								}
+							}
+
+		std::cout << "Common count = " << count[0] << '\n';
+		int sum(0);
+		std::cout << std::fixed;
+		for (int i = 1;i < count.size();++i)
+		{
+			std::cout <<std::setw(3)<< i << " - " << count[i] << '\n';
+			sum += count[i];
+		}
+		std::cout << "Sum = " << sum << '\n';
 	}
 }

@@ -14,6 +14,7 @@ namespace Practice13
 	Номер билета может быть в интервале от 000000 до 999999.*/
 
 	void happyTicket();
+	void happyTicketAll();
 }
 
 #endif

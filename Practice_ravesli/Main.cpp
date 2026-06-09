@@ -11,6 +11,9 @@
 #include"Practice11.h"
 #include"Practice12.h"
 #include"Practice13.h"
+#include"Practice14.h"
+
+#include"Practice16.h"
 
 int main()
 {
@@ -76,7 +79,24 @@ int main()
 
 	//Practice 13
 	//Practice13::evenAndMultiple();
-	Practice13::happyTicket();
+	//Practice13::happyTicket();
+	//Practice13::happyTicketAll();
+	//
+
+	//Practice14
+	//Practice14::bacteryCount();
+	//Practice14::getSeconds();
+	//
+
+	//Practice15
+	//
+	//
+	//
+
+	//Practice16
+	Practice16::getMin();
+
+
 
 	return 0;
 }
