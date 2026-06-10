@@ -12,7 +12,7 @@
 #include"Practice12.h"
 #include"Practice13.h"
 #include"Practice14.h"
-
+#include"Practice15.h"
 #include"Practice16.h"
 
 int main()
@@ -89,14 +89,15 @@ int main()
 	//
 
 	//Practice15
-	//
-	//
+	//Practice15::stringLength();
+	//Practice15::manhattanPrice();
 	//
 
 	//Practice16
-	Practice16::getMin();
+	//Practice16::getMin();
+	//Practice16::changeString();
 
-
+	//Practice17
 
 	return 0;
 }

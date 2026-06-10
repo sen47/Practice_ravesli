@@ -70,4 +70,33 @@ namespace Practice16
 
 		delete[]array;
 	}
+
+	////////////////////////////
+
+	std::string getString(const std::string& output)
+	{
+		while (true)
+		{
+			std::cout << output;
+			std::string input;
+			std::getline(std::cin, input);
+			if (input.length() < 2)
+				std::cerr << "Error, invalid string length!\n";
+			else
+				return input;
+		}
+	}
+
+	void changeString()
+	{
+		std::string str{ getString("Enter string (min 2 char): ") };
+		std::cout << "Your str: " << str << '\n';
+		//str[0] = ' ';
+		//str[str.length() - 1] = '.';
+
+		*str.begin() = ' ';
+		*(--str.end()) = '.';
+
+		std::cout << "Changed str: " << str << '\n';
+	}
 }
