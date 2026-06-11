@@ -14,6 +14,7 @@
 #include"Practice14.h"
 #include"Practice15.h"
 #include"Practice16.h"
+#include"Practice17.h"
 
 int main()
 {
@@ -98,6 +99,9 @@ int main()
 	//Practice16::changeString();
 
 	//Practice17
+	//Practice17::averageInRand();
+	//Practice17::swapMinMax();
+
 
 	return 0;
 }
