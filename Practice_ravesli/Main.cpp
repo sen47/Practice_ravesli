@@ -15,6 +15,7 @@
 #include"Practice15.h"
 #include"Practice16.h"
 #include"Practice17.h"
+#include"Practice18.h"
 
 int main()
 {
@@ -101,6 +102,11 @@ int main()
 	//Practice17
 	//Practice17::averageInRand();
 	//Practice17::swapMinMax();
+
+	//Practice18
+	//Practice18::applePrice();
+	Practice18::deleteRepeatElement();
+
 
 
 	return 0;

@@ -137,6 +137,7 @@
     <ClCompile Include="Practice15.cpp" />
     <ClCompile Include="Practice16.cpp" />
     <ClCompile Include="Practice17.cpp" />
+    <ClCompile Include="Practice18.cpp" />
     <ClCompile Include="Practice2.cpp" />
     <ClCompile Include="Practice3.cpp" />
     <ClCompile Include="Practice4.cpp" />
@@ -157,6 +158,7 @@
     <ClInclude Include="Practice15.h" />
     <ClInclude Include="Practice16.h" />
     <ClInclude Include="Practice17.h" />
+    <ClInclude Include="Practice18.h" />
     <ClInclude Include="Practice2.h" />
     <ClInclude Include="Practice3.h" />
     <ClInclude Include="Practice4.h" />
