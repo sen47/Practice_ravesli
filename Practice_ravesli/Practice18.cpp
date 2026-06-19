@@ -136,5 +136,33 @@ namespace Practice18
 		}
 
 		printList(arr);
+
+		std::cout << "\n\n";
+
+		for (auto iter_outer(arr.begin());iter_outer != arr.end();)
+		{
+			auto current_el(iter_outer++);
+			int counter(0);
+
+			for (auto iter_inner(iter_outer);iter_inner != arr.end();)
+			{
+				if (*current_el == *iter_inner)
+				{
+					if (!counter)
+					{
+						++counter;
+						++iter_inner;
+					}
+					else
+					{
+						iter_inner = arr.erase(iter_inner);
+					}
+				}
+				else
+					++iter_inner;
+			}
+		}
+
+		printList(arr);
 	}
 }
