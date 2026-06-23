@@ -16,6 +16,8 @@
 #include"Practice16.h"
 #include"Practice17.h"
 #include"Practice18.h"
+#include"Practice19.h"
+#include"Practice20.h"
 
 int main()
 {
@@ -105,7 +107,16 @@ int main()
 
 	//Practice18
 	//Practice18::applePrice();
-	Practice18::deleteRepeatElement();
+	//Practice18::deleteRepeatElement();
+	//
+
+	//Practice19
+	//Practice19::deleteSpasesAndPunct();
+	//Practice19::genArr();
+	//
+
+	//Practice20
+	Practice20::nextDate();
 
 
 
