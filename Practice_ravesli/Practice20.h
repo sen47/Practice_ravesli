@@ -2,6 +2,7 @@
 #define PRACTICE20_H
 
 #include"Headers.h"
+#include<format>
 
 namespace Practice20
 {
@@ -11,6 +12,10 @@ namespace Practice20
 		Последний день месяца!Завтра 01.01.2019*/
 
 	void nextDate();
+
+	//Напишите программу, которая конвертирует введенное пользователем десятичное число в шестнадцатеричную систему счисления.
+
+	void intToHex();
 }
 
 #endif

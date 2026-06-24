@@ -139,4 +139,37 @@ namespace Practice20
 		std::cout << "Current day: " << d << '\n';
 		std::cout << "Next day: " << d.getNextDay() << '\n';
 	}
+
+	/////////////////////////
+
+	int getInt(const std::string& output)
+	{
+		while (true)
+		{
+			std::cout << output;
+			int input;
+			std::cin >> input;
+			if (std::cin.fail())
+			{
+				std::cin.clear();
+				std::cin.ignore(32767, '\n');
+				std::cerr << "Error, cin fail!\n";
+			}
+			else
+			{
+				std::cin.ignore(32767, '\n');
+				if (std::cin.gcount() > 1)
+					std::cerr << "Error, gcount fail!\n";
+				else
+					return input;
+			}
+		}
+	}
+
+	void intToHex()
+	{
+		int num(getInt("Enter number: "));
+		//std::cout << "Hex = " << std::hex << num << '\n';
+		std::cout << "Hex = " << std::format("{:x}", num) << '\n';
+	}
 }

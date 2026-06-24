@@ -141,6 +141,7 @@
     <ClCompile Include="Practice19.cpp" />
     <ClCompile Include="Practice2.cpp" />
     <ClCompile Include="Practice20.cpp" />
+    <ClCompile Include="Practice21.cpp" />
     <ClCompile Include="Practice3.cpp" />
     <ClCompile Include="Practice4.cpp" />
     <ClCompile Include="Practice5.cpp" />
@@ -164,6 +165,7 @@
     <ClInclude Include="Practice19.h" />
     <ClInclude Include="Practice2.h" />
     <ClInclude Include="Practice20.h" />
+    <ClInclude Include="Practice21.h" />
     <ClInclude Include="Practice3.h" />
     <ClInclude Include="Practice4.h" />
     <ClInclude Include="Practice5.h" />

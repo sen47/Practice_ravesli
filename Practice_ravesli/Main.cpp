@@ -18,6 +18,7 @@
 #include"Practice18.h"
 #include"Practice19.h"
 #include"Practice20.h"
+#include"Practice21.h"
 
 int main()
 {
@@ -116,9 +117,16 @@ int main()
 	//
 
 	//Practice20
-	Practice20::nextDate();
+	//Practice20::nextDate();
+	//Practice20::intToHex();
+
+	//Practice21
+	//Practice21::operationsWithArray();
+	//Practice21::rockPaperScisors();
+	//
 
 
+	
 
 	return 0;
 }
