@@ -19,6 +19,9 @@
 #include"Practice19.h"
 #include"Practice20.h"
 #include"Practice21.h"
+#include"Practice22.h"
+#include"Practice23.h"
+#include"Practice24.h"
 
 int main()
 {
@@ -125,8 +128,18 @@ int main()
 	//Practice21::rockPaperScisors();
 	//
 
+	//Practice22
+	//Practice22::allDeviders();
+	//Practice22::fibbo();
+	//
 
-	
+	//Practice23
+	//Practice23::reverceString();
+	//Practice23::commonWithoutRepeating();
+	//
+
+	//Practice24
+
 
 	return 0;
 }
